@@ -51,7 +51,6 @@
         <Compile Include="Properties\Lab2\Fashion.cs" />
         <Compile Include="Properties\Lab2\Product.cs" />
         <None Include="Properties\Lab2\Program.cs" />
-        <None Include="Properties\Exercise1\Program.cs" />
         <None Include="Properties\AboutCSharp\Lession2.cs" />
         <Compile Include="Properties\AboutCSharp\Product.cs" />
         <Compile Include="Properties\Assignment2\Product.cs" />
