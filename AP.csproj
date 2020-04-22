@@ -38,13 +38,28 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="Properties\AboutCSharp\Lession2.cs" />
+        <Compile Include="Properties\Assignment3\Cart.cs" />
+        <Compile Include="Properties\Lession3\Woman.cs" />
+        <None Include="Properties\Lession1\Program.cs" />
+        <Compile Include="Properties\Lession3\Human.cs" />
+        <Compile Include="Properties\Lession3\IHuman.cs" />
+        <Compile Include="Properties\Lession3\Man.cs" />
+        <Compile Include="Properties\Lession3\Program.cs" />
+        <None Include="Properties\Lab2\TestForDiamond.cs" />
+        <None Include="Properties\Assignment3\Program.cs" />
+        <Compile Include="Properties\Lab2\Diamond.cs" />
+        <Compile Include="Properties\Lab2\Fashion.cs" />
+        <Compile Include="Properties\Lab2\Product.cs" />
+        <None Include="Properties\Lab2\Program.cs" />
+        <None Include="Properties\Exercise1\Program.cs" />
+        <None Include="Properties\AboutCSharp\Lession2.cs" />
         <Compile Include="Properties\AboutCSharp\Product.cs" />
+        <Compile Include="Properties\Assignment2\Product.cs" />
+        <None Include="Properties\Assignment2\Program.cs" />
         <None Include="Properties\AboutCSharp\Program.cs" />
         <Compile Include="Properties\AboutCSharp\Social.cs" />
         <Compile Include="Properties\AboutCSharp\Student.cs" />
         <None Include="Properties\AboutCSharp\TestProduct.cs" />
-        <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

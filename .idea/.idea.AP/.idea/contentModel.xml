@@ -16,8 +16,36 @@
           <e p="Program.cs" t="Include" />
           <e p="Social.cs" t="Include" />
           <e p="Student.cs" t="Include" />
+          <e p="TestProduct.cs" t="Include" />
         </e>
-        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Assignment2" t="Include">
+          <e p="Product.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Assignment3" t="Include">
+          <e p="Cart.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Exercise1" t="Include">
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Lab2" t="Include">
+          <e p="Diamond.cs" t="Include" />
+          <e p="Fashion.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="TestForDiamond.cs" t="Include" />
+        </e>
+        <e p="Lession1" t="Include">
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Lession3" t="Include">
+          <e p="Human.cs" t="Include" />
+          <e p="IHuman.cs" t="Include" />
+          <e p="Man.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="Woman.cs" t="Include" />
+        </e>
       </e>
     </e>
   </component>
