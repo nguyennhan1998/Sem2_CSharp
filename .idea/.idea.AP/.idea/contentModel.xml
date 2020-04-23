@@ -34,6 +34,7 @@
           <e p="Program.cs" t="Include" />
         </e>
         <e p="Assignment4" t="Include">
+          <e p="Bill.cs" t="Include" />
           <e p="Program.cs" t="Include" />
         </e>
         <e p="Lab2" t="Include">

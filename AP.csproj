@@ -42,8 +42,9 @@
         <Compile Include="Properties\Assignment23Fix\Diamond.cs" />
         <Compile Include="Properties\Assignment23Fix\Fashion.cs" />
         <Compile Include="Properties\Assignment23Fix\Product.cs" />
-        <Compile Include="Properties\Assignment23Fix\Program.cs" />
+        <None Include="Properties\Assignment23Fix\Program.cs" />
         <Compile Include="Properties\Assignment3\Cart.cs" />
+        <Compile Include="Properties\Assignment4\Bill.cs" />
         <Compile Include="Properties\Assignment4\Program.cs" />
         <Compile Include="Properties\Lession3\Woman.cs" />
         <None Include="Properties\Lession1\Program.cs" />
