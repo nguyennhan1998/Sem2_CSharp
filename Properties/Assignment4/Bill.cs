@@ -17,13 +17,15 @@ namespace AP.Properties.Assignment4
             Console.WriteLine("your bill");
         }
 
-        public Bill(int id, string name, DateTime date, string nationality, int amount)
+        public Bill(int id, string name, DateTime date, string nationality, int amount, int price, int money)
         {
             this.id = id;
             this.name = name;
             this.date = date;
             this.nationality = nationality;
             this.amount = amount;
+            this.price = price;
+            this.money = money;
         }
 
         public int Id
@@ -59,36 +61,15 @@ namespace AP.Properties.Assignment4
         public int Price
         {
             get => price;
-            set
-            {
-                if (nationality.Equals("VietNam"))
-                {
-                    if (amount < 50)
-                    { this.price = 1000;
-                    }else if (amount >= 50 && amount < 100)
-                    {
-                       this.price = 1200;
-                    }else if (amount >= 100 && amount < 200)
-                    {
-                        this.price = 1500;
-                    }
-                    else
-                    {
-                        this.price = 2000;
-                    }
-                }
-                else
-                {
-                    this.price = 2000;
-                }
-            }
+            set => price = value;
         }
 
         public int Money
         {
             get => money;
-            set { this.money = this.price * amount; }
+            set => money = value;
         }
+        
 
         public void PrintBill()
         {

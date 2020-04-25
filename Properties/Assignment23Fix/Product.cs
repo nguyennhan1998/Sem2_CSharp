@@ -15,6 +15,7 @@ namespace AP.Properties.Assignment23Fix
         protected string image;
         protected string desc;
         protected List<string> gallery;
+        public static int yearCode;
 
         public Product(int id, string name, double price, uint qty, string image, string desc, List<string> gallery)
         {
@@ -25,6 +26,24 @@ namespace AP.Properties.Assignment23Fix
             this.image = image;
             this.desc = desc;
             this.gallery = gallery;
+        }
+
+        public string this[int index]
+        {
+            get { return gallery[index]; }
+            set { gallery[index] = value; }
+        }
+
+        public List<string> Gallery
+        {
+            get => gallery;
+            //set => gallery = value;
+        }
+
+        public static int YearCode
+        {
+            get => yearCode;
+            set => yearCode = value;
         }
 
         public Product()
@@ -71,7 +90,7 @@ namespace AP.Properties.Assignment23Fix
 
         public void GetInfor()
         {
-            Console.WriteLine("ID: "+this.id+" name: "+name+" qty: "+this.qty+" price: "+this.price+" desc: "+this.desc);
+            Console.WriteLine("ID: "+this.id+" name: "+this.name+" qty: "+this.qty+" price: "+this.price+" desc: "+this.desc);
         }
 
         public bool CheckStock()
