@@ -20,6 +20,7 @@ namespace AP.Properties.Assignment23Fix
             this.city = city;
             this.country = country;
         }
+        
 
         public int Id
         {

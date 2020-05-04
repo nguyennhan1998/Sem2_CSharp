@@ -56,6 +56,10 @@
           <e p="Program.cs" t="Include" />
           <e p="TestForDiamond.cs" t="Include" />
         </e>
+        <e p="Lab6" t="Include">
+          <e p="Calculator.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
         <e p="Lession1" t="Include">
           <e p="Program.cs" t="Include" />
         </e>
@@ -65,6 +69,11 @@
           <e p="Man.cs" t="Include" />
           <e p="Program.cs" t="Include" />
           <e p="Woman.cs" t="Include" />
+        </e>
+        <e p="Test" t="Include">
+          <e p="Calculator.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="TaxCalc.cs" t="Include" />
         </e>
       </e>
       <e p="Session5" t="Include">

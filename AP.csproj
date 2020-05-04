@@ -52,7 +52,12 @@
         <Compile Include="Properties\Assignment5\Phone.cs" />
         <Compile Include="Properties\Assignment5\PhoneBook.cs" />
         <Compile Include="Properties\Assignment5\PhoneNumber.cs" />
-        <Compile Include="Properties\Assignment5\Program.cs" />
+        <None Include="Properties\Assignment5\Program.cs" />
+        <Compile Include="Properties\Lab6\Calculator.cs" />
+        <Compile Include="Properties\Lab6\Program.cs" />
+        <Compile Include="Properties\Test\Calculator.cs" />
+        <None Include="Properties\Test\Program.cs" />
+        <Compile Include="Properties\Test\TaxCalc.cs" />
         <Compile Include="Session5\Program.cs" />
         <None Include="Properties\Assignment4\Program.cs" />
         <Compile Include="Properties\Lession3\Woman.cs" />
