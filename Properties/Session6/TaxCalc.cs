@@ -1,4 +1,4 @@
-﻿namespace AP.Properties.Test
+﻿namespace AP.Properties.Session6
 {
     public delegate float TaxMoney(float salary);
     public class TaxCalc

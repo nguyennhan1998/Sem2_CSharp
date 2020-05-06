@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AP.Properties.Test
+namespace AP.Properties.Session6
 {
     //khai báo 1 delegate trả về int và có 2 tham số
     public delegate int IntegerToInteger(int a, int b);

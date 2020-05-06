@@ -60,6 +60,13 @@
           <e p="Calculator.cs" t="Include" />
           <e p="Program.cs" t="Include" />
         </e>
+        <e p="Lab6Fix" t="Include">
+          <e p="Calc.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Lab8" t="Include">
+          <e p="Program.cs" t="Include" />
+        </e>
         <e p="Lession1" t="Include">
           <e p="Program.cs" t="Include" />
         </e>
@@ -70,10 +77,18 @@
           <e p="Program.cs" t="Include" />
           <e p="Woman.cs" t="Include" />
         </e>
-        <e p="Test" t="Include">
+        <e p="NewDirectory1" t="Include" />
+        <e p="Session6" t="Include">
           <e p="Calculator.cs" t="Include" />
           <e p="Program.cs" t="Include" />
           <e p="TaxCalc.cs" t="Include" />
+        </e>
+        <e p="Session7" t="Include">
+          <e p="EvenDemo.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Session8" t="Include">
+          <e p="Session8.cs" t="Include" />
         </e>
       </e>
       <e p="Session5" t="Include">

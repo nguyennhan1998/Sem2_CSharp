@@ -16,6 +16,7 @@ namespace AP.Properties.Assignment23Fix
         protected string desc;
         protected List<string> gallery;
         public static int yearCode;
+        private event ShowAlert ChangeQty;
 
         public Product(int id, string name, double price, uint qty, string image, string desc, List<string> gallery)
         {
@@ -27,6 +28,7 @@ namespace AP.Properties.Assignment23Fix
             this.desc = desc;
             this.gallery = gallery;
         }
+        
 
         public string this[int index]
         {
@@ -49,6 +51,10 @@ namespace AP.Properties.Assignment23Fix
         public Product()
         {
             gallery=new List<string>();
+            if (ChangeQty == null)
+            {
+                ChangeQty += Cart.AlertMessage;
+            }
         }
 
         public int Id
@@ -72,7 +78,14 @@ namespace AP.Properties.Assignment23Fix
         public uint Qty
         {
             get { return qty; }
-            set { this.qty = value; }
+            set
+            {
+                if (qty != 0)
+                {
+                    ChangeQty("so luong san pham da duoc chinh sau");
+                    qty = value;
+                }
+            }
         }
 
         public string Image

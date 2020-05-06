@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AP.Properties.Test
+namespace AP.Properties.Session6
 {
     public class Calculator
     {

@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace AP.Properties.Assignment23Fix
 {
+    public delegate  void ShowAlert(string msg);
     public class Cart
     {
         private int id;
@@ -10,6 +12,7 @@ namespace AP.Properties.Assignment23Fix
         private List<Product> listProduct;
         private string city;
         private string country;
+        private event ShowAlert AddToCart;
 
         public Cart(int id, string customer, double grandTotal, List<Product> listProduct, string city, string country)
         {
@@ -19,8 +22,18 @@ namespace AP.Properties.Assignment23Fix
             this.listProduct = listProduct;
             this.city = city;
             this.country = country;
+            if (AddToCart == null)
+            {
+                AddToCart += AlertMessage;
+            }
         }
         
+
+        public static void AlertMessage(string msg)
+        {
+            
+            Console.WriteLine(msg);
+        }
 
         public int Id
         {
@@ -61,6 +74,9 @@ namespace AP.Properties.Assignment23Fix
         public bool AddProduct(Product product)
         {
             listProduct.Add(product);
+            //Them tien trong GrandTotal
+            //Them vao su kien
+            AddToCart("da them san pham: " + product.Name+" vao gio hang");
             return true;
 
         }
