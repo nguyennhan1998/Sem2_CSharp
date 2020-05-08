@@ -49,6 +49,14 @@
           <e p="PhoneNumber.cs" t="Include" />
           <e p="Program.cs" t="Include" />
         </e>
+        <e p="Assignment6_Fibonacy" t="Include">
+          <e p="Program.cs" t="Include" />
+        </e>
+        <e p="Assignment7_manageStudent" t="Include">
+          <e p="ListStudent.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="Student.cs" t="Include" />
+        </e>
         <e p="Lab2" t="Include">
           <e p="Diamond.cs" t="Include" />
           <e p="Fashion.cs" t="Include" />
@@ -77,7 +85,6 @@
           <e p="Program.cs" t="Include" />
           <e p="Woman.cs" t="Include" />
         </e>
-        <e p="NewDirectory1" t="Include" />
         <e p="Session6" t="Include">
           <e p="Calculator.cs" t="Include" />
           <e p="Program.cs" t="Include" />
@@ -87,8 +94,10 @@
           <e p="EvenDemo.cs" t="Include" />
           <e p="Program.cs" t="Include" />
         </e>
-        <e p="Session8" t="Include">
+        <e p="Session8_Thread" t="Include">
+          <e p="NumberCounter.cs" t="Include" />
           <e p="Session8.cs" t="Include" />
+          <e p="Session8_2.cs" t="Include" />
         </e>
       </e>
       <e p="Session5" t="Include">

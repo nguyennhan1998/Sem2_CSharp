@@ -53,17 +53,23 @@
         <Compile Include="Properties\Assignment5\PhoneBook.cs" />
         <Compile Include="Properties\Assignment5\PhoneNumber.cs" />
         <None Include="Properties\Assignment5\Program.cs" />
+        <None Include="Properties\Assignment6_Fibonacy\Program.cs" />
+        <Compile Include="Properties\Assignment7_manageStudent\ListStudent.cs" />
+        <Compile Include="Properties\Assignment7_manageStudent\Program.cs" />
+        <Compile Include="Properties\Assignment7_manageStudent\Student.cs" />
         <Compile Include="Properties\Lab6Fix\Calc.cs" />
         <None Include="Properties\Lab6Fix\Program.cs" />
         <Compile Include="Properties\Lab6\Calculator.cs" />
         <None Include="Properties\Lab6\Program.cs" />
-        <Compile Include="Properties\Lab8\Program.cs" />
+        <None Include="Properties\Lab8\Program.cs" />
         <Compile Include="Properties\Session6\Calculator.cs" />
         <None Include="Properties\Session6\Program.cs" />
         <Compile Include="Properties\Session6\TaxCalc.cs" />
         <Compile Include="Properties\Session7\EvenDemo.cs" />
         <None Include="Properties\Session7\Program.cs" />
-        <None Include="Properties\Session8\Session8.cs" />
+        <None Include="Properties\Session8_Thread\Session8.cs" />
+        <Compile Include="Properties\Session8_Thread\NumberCounter.cs" />
+        <Compile Include="Properties\Session8_Thread\Session8_2.cs" />
         <Compile Include="Session5\Program.cs" />
         <None Include="Properties\Assignment4\Program.cs" />
         <Compile Include="Properties\Lession3\Woman.cs" />
@@ -86,9 +92,6 @@
         <Compile Include="Properties\AboutCSharp\Social.cs" />
         <Compile Include="Properties\AboutCSharp\Student.cs" />
         <None Include="Properties\AboutCSharp\TestProduct.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Properties\NewDirectory1" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

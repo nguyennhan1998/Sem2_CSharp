@@ -24,17 +24,17 @@ namespace AP.Properties.Lab8
                         Console.WriteLine("0"+i+":"+j);
                     }
 
-                    if (i == 0 && j == 0)
-                    {
-                        Console.WriteLine("Boom!!!");
-                    }
+                    
+                        
+                    
                     try{
-                        Thread.Sleep(1000);
+                        Thread.Sleep(10);
                     }catch (Exception e){
                         Console.WriteLine(e.Message);
                     }
                 }
             }
+            Console.WriteLine("Boom!!!");
         }
         
     }
