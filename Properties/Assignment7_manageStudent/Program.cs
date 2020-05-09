@@ -23,9 +23,10 @@ namespace AP.Properties.Assignment7_manageStudent
                      break;
                  case 3: DeleteSt();
                      break;
-                 case 4: SortLsByGpa();
+                 case 4: ls.SortGpa();
                      break;
-                 case 5: SortLsByName();
+                 case 5:
+                     ls.SortName();
                      break;
                  case 6: ls.ShowStudent();
                      break;
@@ -81,15 +82,6 @@ namespace AP.Properties.Assignment7_manageStudent
             int id = Convert.ToInt32(Console.ReadLine());
             ls.DeleteStudent(id);
         }
-
-        public static void SortLsByGpa()
-        {
-            ls.SortByGpa();
-        }
-
-        public static void SortLsByName()
-        {
-            ls.SortByName();
-        }
+        
     }
 }

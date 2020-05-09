@@ -7,12 +7,10 @@ namespace AP.Properties.Assignment7_manageStudent
 {
     public class ListStudent
     {
-        public string className;
-        private static List<Student> listStudent;
+        private List<Student> listStudent;
 
-        public ListStudent(string name)
+        public ListStudent()
         {
-            this.className = name;
             this.listStudent=new List<Student>();
         }
 
@@ -23,35 +21,15 @@ namespace AP.Properties.Assignment7_manageStudent
                 Console.WriteLine("id :"+listStudent[i].Id+" name: "+listStudent[i].Name+" age: "+listStudent[i].Age+" Address: "+listStudent[i].Address+" gpa: "+listStudent[i].Gpa);
             }
         }
-
-        public int SortByGpa()
+        
+        public void SortGpa()
         {
-            for (int i = 0; i < listStudent.Count; i++)
-            {
-                if (listStudent[i].Gpa > listStudent[i + 1].Gpa)
-                {
-                    return 1;
-                }else if (listStudent[i].Gpa == listStudent[i + 1].Gpa)
-                    return 0;
-                
-            }
-
-            return -1;
+            listStudent.Sort((x, y) => y.Gpa.CompareTo(x.Gpa));
         }
-
-        public int SortByName()
+        
+        public void SortName()
         {
-            for (int i = 0; i < listStudent.Count; i++)
-            {
-                if (listStudent[i].Name.CompareTo(listStudent[i + 1].Name)>0)
-                {
-                    return 1;
-                }else if (listStudent[i].Name.CompareTo(listStudent[i + 1].Name)==0)
-                    return 0;
-                
-            }
-
-            return -1;
+            listStudent.Sort((x, y) => x.Name.CompareTo(y.Name));
         }
 
         public Student Search(int id)
@@ -137,7 +115,6 @@ namespace AP.Properties.Assignment7_manageStudent
             Console.WriteLine("You just add to the  list student "+student.Name);
             return true;
         }
-
-
+        
     }
 }
