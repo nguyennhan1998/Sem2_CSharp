@@ -7,7 +7,14 @@ namespace AP.Properties.Assignment7_manageStudent
 {
     public class ListStudent
     {
-        public static List<Student> listStudent;
+        public string className;
+        private static List<Student> listStudent;
+
+        public ListStudent(string name)
+        {
+            this.className = name;
+            this.listStudent=new List<Student>();
+        }
 
         public void ShowStudent()
         {
@@ -17,7 +24,7 @@ namespace AP.Properties.Assignment7_manageStudent
             }
         }
 
-        public int SortById()
+        public int SortByGpa()
         {
             for (int i = 0; i < listStudent.Count; i++)
             {
@@ -32,7 +39,7 @@ namespace AP.Properties.Assignment7_manageStudent
             return -1;
         }
 
-        public int SortByName(Student other)
+        public int SortByName()
         {
             for (int i = 0; i < listStudent.Count; i++)
             {
@@ -123,10 +130,11 @@ namespace AP.Properties.Assignment7_manageStudent
         {
             if (Search(student.Id) != null)
             {
-                Console.WriteLine("Hoc sinh da ton tai trong danh sach");
+                Console.WriteLine("student exist in the list, you can not add.");
                 return false;
             }
             listStudent.Add(student);
+            Console.WriteLine("You just add to the  list student "+student.Name);
             return true;
         }
 
