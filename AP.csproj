@@ -69,7 +69,7 @@
         <None Include="Properties\Session7\Program.cs" />
         <None Include="Properties\Session8_Thread\Session8.cs" />
         <Compile Include="Properties\Session8_Thread\NumberCounter.cs" />
-        <Compile Include="Properties\Session8_Thread\Session8_2.cs" />
+        <None Include="Properties\Session8_Thread\Session8_2.cs" />
         <Compile Include="Session5\Program.cs" />
         <None Include="Properties\Assignment4\Program.cs" />
         <Compile Include="Properties\Lession3\Woman.cs" />

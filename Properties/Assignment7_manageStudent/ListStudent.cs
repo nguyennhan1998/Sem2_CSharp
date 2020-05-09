@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Reflection.Emit;
 using System.Security.Cryptography;
 
 namespace AP.Properties.Assignment7_manageStudent
@@ -80,13 +81,53 @@ namespace AP.Properties.Assignment7_manageStudent
                 int x;
                 do
                 {
-                    x=Console.WriteLine()
+                    x = Convert.ToInt32(Console.ReadLine());
+                    if (x == 1)
+                    {
+                        Console.WriteLine("Nhap ten can sua");
+                        string y = Convert.ToString(Console.ReadLine());
+                        st.Name = y;
+                    }else if (x == 2)
+                    {
+                        Console.WriteLine("nhap tuoi can sua : ");
+                        int y = Convert.ToInt32(Console.ReadLine());
+                        st.Age = y;
+                    }else if (x == 3)
+                    {
+                        Console.WriteLine("Nhap dia chi moi: ");
+                        string y = Convert.ToString(Console.ReadLine());
+                        st.Address = y;
+                    }else if (x == 4)
+                    {
+                        Console.WriteLine("Nhap diem trung binh moi: ");
+                        float y = Convert.ToInt32(Console.ReadLine());
+                        st.Gpa = y;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Khong co action: ");
+                    }
 
                 } while (x == 5);
+
+                return true;
 
 
 
             }
+            Console.WriteLine("Khong co id trong danh sach de sua");
+            return false;
+        }
+
+        public bool AddStudent(Student student)
+        {
+            if (Search(student.Id) != null)
+            {
+                Console.WriteLine("Hoc sinh da ton tai trong danh sach");
+                return false;
+            }
+            listStudent.Add(student);
+            return true;
         }
 
 
