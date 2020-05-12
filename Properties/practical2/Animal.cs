@@ -25,13 +25,13 @@ namespace AP.Properties.practical2
             set => weight = value;
         }
 
-        public void Show()
+        public virtual void Show()
         {
             Console.WriteLine("name: "+Name);
             Console.WriteLine("Weight: "+weight);
         }
 
-        public void SetMe(string name, int weight)
+        public virtual void SetMe(string name, int weight)
         {
             this.name = name;
             this.weight = weight;
