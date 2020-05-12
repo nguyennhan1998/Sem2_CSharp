@@ -89,6 +89,7 @@
           <e p="Cylinder.cs" t="Include" />
           <e p="Geometry.cs" t="Include" />
         </e>
+        <e p="practical2" t="Include" />
         <e p="Session6" t="Include">
           <e p="Calculator.cs" t="Include" />
           <e p="Program.cs" t="Include" />
