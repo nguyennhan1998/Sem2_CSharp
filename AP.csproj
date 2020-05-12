@@ -55,13 +55,15 @@
         <None Include="Properties\Assignment5\Program.cs" />
         <None Include="Properties\Assignment6_Fibonacy\Program.cs" />
         <Compile Include="Properties\Assignment7_manageStudent\ListStudent.cs" />
-        <Compile Include="Properties\Assignment7_manageStudent\Program.cs" />
+        <None Include="Properties\Assignment7_manageStudent\Program.cs" />
         <Compile Include="Properties\Assignment7_manageStudent\Student.cs" />
         <Compile Include="Properties\Lab6Fix\Calc.cs" />
         <None Include="Properties\Lab6Fix\Program.cs" />
         <Compile Include="Properties\Lab6\Calculator.cs" />
         <None Include="Properties\Lab6\Program.cs" />
         <None Include="Properties\Lab8\Program.cs" />
+        <Compile Include="Properties\Practical\Cylinder.cs" />
+        <None Include="Properties\Practical\Geometry.cs" />
         <Compile Include="Properties\Session6\Calculator.cs" />
         <None Include="Properties\Session6\Program.cs" />
         <Compile Include="Properties\Session6\TaxCalc.cs" />

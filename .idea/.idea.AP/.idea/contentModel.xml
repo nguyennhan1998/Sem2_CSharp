@@ -85,6 +85,10 @@
           <e p="Program.cs" t="Include" />
           <e p="Woman.cs" t="Include" />
         </e>
+        <e p="Practical" t="Include">
+          <e p="Cylinder.cs" t="Include" />
+          <e p="Geometry.cs" t="Include" />
+        </e>
         <e p="Session6" t="Include">
           <e p="Calculator.cs" t="Include" />
           <e p="Program.cs" t="Include" />
