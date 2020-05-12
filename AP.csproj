@@ -63,6 +63,9 @@
         <None Include="Properties\Lab6\Program.cs" />
         <None Include="Properties\Lab8\Program.cs" />
         <Compile Include="Properties\practical2\Animal.cs" />
+        <Compile Include="Properties\practical2\Lion.cs" />
+        <Compile Include="Properties\practical2\Program.cs" />
+        <Compile Include="Properties\practical2\Tiger.cs" />
         <Compile Include="Properties\Practical\Cylinder.cs" />
         <None Include="Properties\Practical\Geometry.cs" />
         <Compile Include="Properties\Session6\Calculator.cs" />
